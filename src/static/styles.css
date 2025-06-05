@@ -65,6 +65,27 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+/* Estilo para a lista de participantes */
+.activity-card ul {
+  margin: 8px 0 0 18px;
+  padding-left: 0;
+  list-style: disc inside;
+}
+
+.activity-card ul li {
+  margin-bottom: 4px;
+  padding: 2px 0 2px 6px;
+  font-size: 15px;
+  color: #333;
+  background: #eef3fa;
+  border-radius: 3px;
+  display: list-item;
+}
+
+.activity-card p strong {
+  color: #1a237e;
+}
+
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
